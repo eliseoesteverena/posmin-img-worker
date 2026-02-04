@@ -2,6 +2,9 @@ name = "posmin-img-worker"
 main = "main.js"
 compatibility_date = "2026-02-04"
 
+workers_dev = true
+preview_urls = false
+
 # Configuración del bucket R2
 [[r2_buckets]]
 binding = "IMAGES"    # nombre de la variable en tu código
