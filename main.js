@@ -124,7 +124,7 @@ export default {
         );
         
         
-        const publicUrl = `https://68fdee6097596292787cc211f6da5349.r2.cloudflarestorage.com/pos-images/${filename}`;
+        const publicUrl = `https://pub-4e9880c46c5946198ae2248a44792d30.r2.dev/${filename}`;
         
         
         return new Response(
