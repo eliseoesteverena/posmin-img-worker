@@ -42,7 +42,7 @@ export default {
       
       /* ================= UPLOAD ================= */
       
-      if (path === '/upload' && request.method === 'POST') {
+      if (path === 'upload' && request.method === 'POST') {
         
         const formData = await request.formData();
         const file = formData.get('image');
